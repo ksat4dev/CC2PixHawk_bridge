@@ -1,0 +1,19 @@
+[ 50%] Building CXX object opti_pub_sub/CMakeFiles/optitrack_sub.dir/src/opti_sub.cpp.o
+/home/kash14sat/catkin_ws/src/opti_pub_sub/src/opti_sub.cpp: In function ‘void Callback(const PoseStamped&)’:
+/home/kash14sat/catkin_ws/src/opti_pub_sub/src/opti_sub.cpp:39:13: error: ‘publisher’ was not declared in this scope
+             publisher.send(message);
+             ^~~~~~~~~
+/home/kash14sat/catkin_ws/src/opti_pub_sub/src/opti_sub.cpp: In function ‘int main(int, char**)’:
+/home/kash14sat/catkin_ws/src/opti_pub_sub/src/opti_sub.cpp:60:28: error: cannot call constructor ‘pub_socket::pub_socket’ directly [-fpermissive]
+     pub_socket::pub_socket(){
+                            ^
+/home/kash14sat/catkin_ws/src/opti_pub_sub/src/opti_sub.cpp:60:28: note: for a function-style cast, remove the redundant ‘::pub_socket’
+/home/kash14sat/catkin_ws/src/opti_pub_sub/src/opti_sub.cpp:60:29: error: expected ‘;’ before ‘{’ token
+     pub_socket::pub_socket(){
+                             ^
+opti_pub_sub/CMakeFiles/optitrack_sub.dir/build.make:62: recipe for target 'opti_pub_sub/CMakeFiles/optitrack_sub.dir/src/opti_sub.cpp.o' failed
+make[2]: *** [opti_pub_sub/CMakeFiles/optitrack_sub.dir/src/opti_sub.cpp.o] Error 1
+CMakeFiles/Makefile2:500: recipe for target 'opti_pub_sub/CMakeFiles/optitrack_sub.dir/all' failed
+make[1]: *** [opti_pub_sub/CMakeFiles/optitrack_sub.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

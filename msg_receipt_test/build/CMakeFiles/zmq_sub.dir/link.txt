@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -lboost_iostreams -lboost_system -lboost_filesystem -pthread -std=c++14   CMakeFiles/zmq_sub.dir/src/subscriber.cpp.o  -o zmq_sub /usr/lib/x86_64-linux-gnu/libzmq.so 

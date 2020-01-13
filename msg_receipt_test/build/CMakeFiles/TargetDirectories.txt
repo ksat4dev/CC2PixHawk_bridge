@@ -1,0 +1,4 @@
+/home/kash14sat/Desktop/zmq/build/CMakeFiles/rebuild_cache.dir
+/home/kash14sat/Desktop/zmq/build/CMakeFiles/edit_cache.dir
+/home/kash14sat/Desktop/zmq/build/CMakeFiles/zmq_pub.dir
+/home/kash14sat/Desktop/zmq/build/CMakeFiles/zmq_sub.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3  -s -rdynamic CMakeFiles/sb.dir/src/serial_create.cpp.o CMakeFiles/sb.dir/src/SerialPort.cpp.o  -o sb -lboost_serialization -lboost_program_options -lboost_chrono -lboost_regex -lboost_system -lboost_filesystem -lboost_thread -lboost_date_time -lboost_atomic -lpthread -lzmq -pthread 
